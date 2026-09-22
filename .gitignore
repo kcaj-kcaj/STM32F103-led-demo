@@ -1,0 +1,31 @@
+# Keil MDK 编译生成的文件
+*.o
+*.d
+*.crf
+*.axf
+*.htm
+*.lnp
+*.plg
+*.bak
+*.dep
+*.iex
+*.sct
+*.lst
+*.map
+
+# 编译输出文件夹
+Objects/
+Listings/
+Debug/
+Release/
+Build/
+
+# CubeMX/IDE 生成的非必要文件
+.mxproject
+.settings/
+.cproject
+.project
+
+# 其他系统文件
+.DS_Store
+Thumbs.db
